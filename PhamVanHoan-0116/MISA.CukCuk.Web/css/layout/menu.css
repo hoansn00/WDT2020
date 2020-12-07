@@ -1,51 +1,55 @@
-﻿.menu{
+﻿.menu {
     width: 200px;
     height: 100vh;
     float: left;
     padding-left: 20px;
 }
-/*logo*/
-.menu .logo{
-    position: relative;
-    width: 100%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-}
-    .menu .logo .icon-bar {
-        width: 30px;
-        height: 30px;
-        background-image: url('../../content/img/toggle.png');
-        cursor: pointer;
-        background-repeat: no-repeat;
-    }
-
-    .menu .logo .logo-page {
-        width: 130px;
-        height: 30px;
-        background-image: url('../../content/img/cukcuk-logo.png');
-        background-repeat: no-repeat;
-        background-size: contain;
-        margin-left: 10px;
-    }
-.menu .menu__content{
-    position: relative;
-    width: 100%;
-}
-    .menu .menu__content .menu__item{
-        display: flex;
+    .menu .logo {
+        position: relative;
         width: 100%;
-        height: 40px;
+        height: 60px;
+        display: flex;
         align-items: center;
     }
-    .menu .menu__content .menu__item:hover{
-        background-color: #e5e5e5;
-        cursor: pointer;
-    }
-        .menu .menu__content .menu__item .menu__icon {
-            background-image: url('../../content/icon/dashboard.png');
-            width: 24px;
-            height: 16px;
+
+        .menu .logo .icon-bar {
+            width: 30px;
+            height: 30px;
+            background-image: url('../../content/img/toggle.png');
+            cursor: pointer;
+            background-repeat: no-repeat;
+        }
+
+        .menu .logo .logo-page {
+            width: 130px;
+            height: 30px;
+            background-image: url('/content/img/cukcuk-logo.png');
             background-repeat: no-repeat;
             background-size: contain;
+            margin-left: 10px;
         }
+
+    .menu .menu__content {
+        position: relative;
+        width: 100%;
+    }
+
+        .menu .menu__content .menu__item {
+            display: flex;
+            width: 100%;
+            height: 40px;
+            align-items: center;
+        }
+
+            .menu .menu__content .menu__item:hover {
+                background-color: #e5e5e5;
+                cursor: pointer;
+            }
+
+            .menu .menu__content .menu__item .menu__icon {
+                background-image: url('../../content/icon/dashboard.png');
+                width: 24px;
+                height: 16px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
