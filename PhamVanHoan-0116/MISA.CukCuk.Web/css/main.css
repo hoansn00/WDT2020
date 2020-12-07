@@ -1,0 +1,24 @@
+﻿
+@import url('components/button.css');
+@import url('components/input.css');
+@import url('components/table.css');
+@import url('components/combobox.css');
+@import url('layout/menu.css');
+@import url('layout/content.css');
+@import url('layout/header.css');
+
+
+body {
+    font-family: 'GoogleSans-Regular';
+    font-size: 13px;
+    font-style: normal;
+    margin: 0;
+}
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../content/content/font/GoogleSans-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GoogleSans-Thin';
+    src: url('../content/content/font/GoogleSans-Thin.otf') format('opentype');
+}
