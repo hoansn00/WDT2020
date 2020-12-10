@@ -4,5 +4,167 @@
     left: 200px;
     bottom: 0;
     right: 0;
-   
+    border-top: 1px solid #808080;
+    padding: 0 20px;
 }
+    .content .content__title{
+        position: relative;
+        padding: 20px;
+    }
+        .content .content__title .title {
+            font-size: 24px;
+            position: relative;
+            font-weight: bold;
+        }
+        .content .content__title .btn-add-employee {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            border-radius: 5px;
+            font-size: 13px;
+            color: #fff;
+            padding: 10px;
+            background: #018160;
+            display: flex;
+            align-items: center;
+        }
+        .content .content__title .btn-add-employee:hover{
+            cursor: pointer
+        }
+            .content .content__title .btn-add-employee .icon-add-employee {
+                background-image: url('../../content/icon/add.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 15px;
+                height: 15px;
+                margin-right: 5px;
+            }
+    .content .content__search{
+        position: relative;
+    }
+        .content .content__search .ip-search {
+            position: relative;
+        }
+                .content .content__search .ip-search__main {
+                margin-left: 20px;
+                font-size: 12px;
+                border: 1px solid #DBDEFF;
+                border-radius: 5px;
+                padding: 10px 20px;
+                height: 26px;
+            }
+            .content .content__search .ip-search .icon-search {
+                background-repeat: no-repeat;
+                position: absolute;
+                left: 24px;
+                width: 16px;
+                height: 16px;
+                background-image: url(../../content/icon/search.png);
+                background-size: contain;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        .content .content__search .icon-refresh {
+            background-image: url('../../content/icon/refresh.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 30px;
+            height: 25px;
+            position: absolute;
+            top: 0;
+            right: 20px;
+            border: 1px solid #DBDEFF;
+            background-position: center;
+        }
+        .content .content__search .icon-refresh:hover{
+            cursor: pointer;
+        }
+    .content .content__bottom {
+        display: flex;
+        width: 95%;
+        border-top: 1px solid #808080;
+        position: absolute;
+        bottom: 0px;
+        padding: 10px;
+    }
+        .content .content__bottom .control-page{
+            display: flex;
+            width: 60%;
+            justify-content: center;
+        }
+        .content .content__bottom span{
+            width: 20%;
+            text-align: center;
+        }
+            .content .content__bottom .control-page .first-page {
+                width: 20px;
+                height: 20px;
+                background-image: url('../../content/icon/btn-firstpage.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .content .content__bottom .control-page .prev-page {
+                width: 20px;
+                height: 20px;
+                background-image: url('../../content/icon/btn-prev-page.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .content .content__bottom .control-page .next-page {
+                width: 20px;
+                height: 20px;
+                background-image: url('../../content/icon/btn-next-page.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .content .content__bottom .control-page .last-page {
+                width: 20px;
+                height: 20px;
+                background-image: url('../../content/icon/btn-lastpage.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .point:hover{
+                cursor: pointer;
+            }
+            .content .content__bottom .control-page .page {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 1px solid #DBDEFF;
+                margin-left: 5px;
+                margin-right: 5px;
+          
+            }
+            .content .content__bottom .control-page .page:hover{
+                cursor: pointer;
+            }
+    .employee-add-block {
+        background: #b6ff00;
+        position: absolute;
+        top: 30px;
+        left: 100px;
+        width: 700px;
+        height: 700px;
+    }
+        .employee-add-block .employee-avatar {
+     
+        }
+            .employee-add-block .employee-avatar .avatar {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                background-image: url('../../content/img/default-avatar.jpg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            /*làm mờ*/
+        .blur {
+            width: 100%;
+            height: 100vh;
+            background: #DBDEFF;
+        }

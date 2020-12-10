@@ -2,7 +2,7 @@
     width: 200px;
     height: 100vh;
     float: left;
-    padding-left: 20px;
+    border-right: 1px solid #808080;
 }
     .menu .logo {
         position: relative;
@@ -13,21 +13,22 @@
     }
 
         .menu .logo .icon-bar {
-            width: 30px;
-            height: 30px;
+            width: 25px;
+            height: 25px;
             background-image: url('../../content/img/toggle.png');
             cursor: pointer;
             background-repeat: no-repeat;
-        }
-
-        .menu .logo .logo-page {
-            width: 130px;
-            height: 30px;
-            background-image: url('/content/img/cukcuk-logo.png');
-            background-repeat: no-repeat;
+            margin-left: 20px;
             background-size: contain;
-            margin-left: 10px;
         }
+            .menu .logo .logo-page {
+                width: 110px;
+                height: 25px;
+                background-image: url('/content/img/cukcuk-logo.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-left: 10px;
+            }
 
     .menu .menu__content {
         position: relative;
@@ -39,6 +40,7 @@
             width: 100%;
             height: 40px;
             align-items: center;
+
         }
 
             .menu .menu__content .menu__item:hover {
@@ -47,9 +49,21 @@
             }
 
             .menu .menu__content .menu__item .menu__icon {
-                background-image: url('../../content/icon/dashboard.png');
                 width: 24px;
                 height: 16px;
                 background-repeat: no-repeat;
                 background-size: contain;
+                margin-left: 25px;
             }
+                .icon-dashboard {
+                    background-image: url('../../content/icon/dashboard.png');
+                }
+                .icon-report {
+                    background-image: url('../../content/icon/report.png');
+                }
+                .icon-dic-employee {
+                    background-image: url('../../content/icon/dic-employee.png');
+                }
+                .icon-setting {
+                    background-image: url('../../content/icon/setting.png');
+                }
