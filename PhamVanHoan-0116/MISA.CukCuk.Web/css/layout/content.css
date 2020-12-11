@@ -84,8 +84,7 @@
         display: flex;
         width: 95%;
         border-top: 1px solid #808080;
-        position: absolute;
-        bottom: 0px;
+        
         padding: 10px;
     }
         .content .content__bottom .control-page{
@@ -150,6 +149,7 @@
         left: 100px;
         width: 700px;
         height: 700px;
+        
     }
         .employee-add-block .employee-avatar {
      
@@ -167,4 +167,5 @@
             width: 100%;
             height: 100vh;
             background: #DBDEFF;
+            display: none;
         }
